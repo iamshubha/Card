@@ -10,13 +10,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: new AppBar(
-          title: Text(
-            'Flutter',
-          ),
-          centerTitle: true,
-          backgroundColor: Colors.green[400],
-        ),
+        // appBar: new AppBar(
+        //   title: Text(
+        //     'Flutter',
+        //   ),
+        //   centerTitle: true,
+        //   backgroundColor: Colors.green[400],
+        // ),
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
