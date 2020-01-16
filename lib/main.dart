@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
 //                          fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                     ),
-                  ),
+                  ),onTap: (){},
                 ),
               ),
               Card(
@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.teal.shade900,
 //                      fontFamily: 'Source Sans Pro',
                     ),
-                  ),
+                  ),onTap: (){},
                 ),
               )
             ],
